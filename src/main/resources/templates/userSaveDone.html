@@ -6,5 +6,9 @@
 </head>
 <body>
 jkghjgfhfd
+
+<div th:each="user : ${allUsers}">
+    [[${user.id}]] [[${user.name}]]
+</div>
 </body>
 </html>
